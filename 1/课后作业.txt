@@ -1,0 +1,335 @@
+0.解释性语言
+1.学习和开发环境
+2.打印到屏幕
+3.*
+4.字符串和数字不能相加
+5.使用转义字符\，或则使用原义字符串 str = r""I love fishc.com ""
+6.python2 终究要被淘汰
+
+
+0.内建函数
+1.print,input int 3个
+2.不一样，大小写敏感
+3
+4.
+5.字符串拼接
+
+
+0.C 变量不能以数字开头
+1.小甲鱼
+2.小甲鱼
+3.520
+4,str = r"Let's Go!"
+print(str)
+5.转义
+6.
+
+
+
+
+0.停不下来
+1.10次
+2.10<cost and cost<50
+3.可以 用;
+4.可以 用\
+5.
+6.
+
+
+
+
+
+
+0.布尔 浮点 字符串
+1.只有两种情况 二进制 
+2. 向下取整
+3.int(num + 0.5)
+4.不同情况不同使用吧，直接获取类型用type 判断是否为某个类型用 isinstance()
+5.支持utt-8编码？？
+6.没有，感觉用来入门很合适
+
+
+
+
+
+0.1.5
+1. a<b and b<c
+2.
+3.求余
+4.9
+5./
+
+
+
+动动手：
+"""打出0-100所有奇数"""
+i = 0
+while i <= 100:
+    if i % 2:
+        print(i,end = ' ')
+    i += 1
+print("打印完了")
+
+
+
+"""计算机崩溃"""
+"""
+while 1:
+    print("I love fishc.com")
+"""
+
+"""爱因斯坦的难题"""
+i = 0
+while 1:
+    if i%2 == 1:
+        if i%3 == 2:
+            if i%5 == 4:
+                if i%6 == 5:
+                    if i%7 == 0:
+                        break
+    i += 1
+
+
+
+print("\n阶梯至少要有"+str(i)+"阶",end = '\n')
+
+
+
+
+0. if money >= 100:
+1. 断言，判断条件，为假则抛出异常
+2. x,y,z = y,z,x
+3. ？表达式
+4. 
+
+0. 5次
+1. 1次。#报错
+2. break 终止循环，continue 跳出本次循环
+3. 跟数组很像，但是操作更灵活，切片哒哒哒的
+4. 0-9
+5. 2,3
+6. 大循环
+7.
+i = 0
+StringLen = len（'ILoveFishC.com'）
+for i in range(0,StringLen,1):
+    print(i)
+
+
+0.数字，字符串，对象
+1.append:在列表尾部添加一个元素。extend 在列表尾部通过列表添加元素 insert 在指定位置添加元素
+2.append 传入参数是元素，extend传入参数是包含元素的列表
+3.不一样，append 实现的是在列表尾部增加一个元素，这个元素是列表。这里的extend 实现的是在列表尾部增加两个元素，元素类型是字符串。
+4.name.insert(2,'s')
+
+
+
+
+0.[2,9,7]
+1.list[0]是取列表元素，list[0:1]是对列表list进行切片
+2. member.insert(0,member.pop())
+3.符号代表从尾部计数
+4.step 为负值 则从后向前
+5.list2 = list1 只是对变量名的赋值，存储空间还是同一个
+6.删除元素，remove 方法，pop方法 BIF del 切片操作
+
+
+
+
+0.[1,2,3,4,5]
+1.list1[1][2][0] = '小鱿鱼'
+2，sort
+3,sort(reserve = True) 或则 先sort后reserve
+4,copy 复制列表 clear 清除列表元素
+5,list1 = []
+for x in range(10):
+	for y in range(10):
+		if x%2==0 and y%2 != 0:
+			list1.append([x,y])
+6.list3 = [y+':'+x[2:] for x in list1 for y in list2 if x[0] == y[0]]
+7.列表  sort排序  reserve翻转 可以使用比较操作符 可以使用逻辑操作符，可以使用+（同类型使用）可以使用*（重复）
+
+
+0.列表，存放一组数据的地方列表  元组，不可修改的列表
+1.数据不期望被修改得时候用元组
+2.元组，元组不会变心
+3.这让我怎么答？
+4.只有一个元素的情况下
+5.不是，是三个变量
+6.1-列表 2-元组 3-列表 4-元组 5-元组 6元组
+7.好像不会
+8.
+
+0.1使用""" """ 2使用/
+1. 注释
+2.\t 为tab  file1 = open(r'C:\windows\temp\readme.txt', 'r')
+3.
+
+
+
+0.%c %s %d %o %x %X %f %e %g %G
+1.{1}
+2.关键字参数
+3.位置参数
+4.'{0}{1:.2f}'
+
+
+"I {0} FishC.com".format("Love")
+"I {a} FishC.com".format(a= "Love")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0.序列
+1.list,tuple,str
+2.
+3.'v' ascii码值最大
+4.if name == each[0]
+
+
+
+
+0.现在听说了，Don't Repeat Yourself
+1.函数 代码简介，有可读性，方便维护修改
+2.可以有很多参数
+3.def 一定要有小括号和冒号
+4.2个，参数为2个元组
+5.Hello World!
+
+
+
+
+
+0.x形参，y实参
+1.函数文档是个字符串，被系统保存下来了，用#写注释会被内存忽略。
+2.赋值错
+3.sep:值之间插入默认为一个空格，end:默认在最后一个值添加一个换行 file:输出定向，默认为当前系统输出 flush:默认是带缓冲区输出
+4.默认参数 是定义函数时赋予的一个默认值，当改参数没有被赋值时，该值传递进函数。关键字参数是调用时使用，带该关键字，可以避免函数参数传递混乱
+
+函数形参，实参，默认参数，关键字参数，可变参数，
+
+
+
+0.我在next()函数里...
+我在pre()函数里...
+1.有，notype
+2.可以，用列表装起来
+3.1314
+  520
+4.'baby,I love you'
+5.
+
+
+
+
+0.lambda x,y=3: x*y
+1.def xxx(x)：
+	if x%2 :
+		return x
+	else:
+		return 
+2.
+3.list(filter(lambda x:x if (not(x%3)) else None,range(100)))
+4.[x for x in range(100) if not((x%3))]
+5.
+6.报错
+
+
+
+0.调用自己
+1.调用自己 有返回
+2.没有
+3.调用层次很大，效率很低
+4.编程简单，系统开销大
+5.
+
+
+0.字典
+1.dict1 = {'F':70,'C':67,'h':104,'i':105,'s':115}
+>>> dict1[C]
+2.虽然不知道为啥，但是就是不对
+3.
+4.一样的
+5.'1000','小甲鱼','男'
+
+
+0.global
+1.notlocal
+2.调用了内部函数
+3.var还未定义
+在print前加 notlocal var
+4.funout()
+5.g = funout()
+	g()
+6.6,7,8
+
+
+0.唯一
+1.使用frozenset
+2.len(set1)
+3.Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    set1[0]
+TypeError: 'set' object does not support indexing
+
+4.set1 = {[1, 2]} 报错
+
+5.只保留了个1
+6.add remove
+
+
+0.C 没有这个目录
+1.读模式，文件模式
+2.二进制 读模式，如果没有则报错
+3.将缓冲推入文件
+4.list(f)
+5.
+6,从当前位置读10个字符
+7.f.tell
+
+
+0.打包算法
+1.pickle.dump()
+2.pickle.load()
+3.可以，后缀名没有关系
+
+
+0.没有异常处理，程序可能向不可控制的方向发展
+1.SyntaxError
+2.IndexError
+3.NotImplementedError	
+4.KeyError
+5.IndentationError
+6.ValueError
+7.UnboundLocalError
+
+
+
+0.try except finally
+1.一段代码可能有多种异常情况
+2.直接 except 不接异常类型，或则except 将需要处理的异常类型打包成一个元组
+3.可能会捕获KeyboardInterrupt 等异常，导致不能按照用户旨意运行
+4.使用finally
+5.
+
+0.if while for try
+1.会跳过
+2.ABC GHI JKL
+3.with
+4.会
+5.
+
+
